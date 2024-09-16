@@ -61,6 +61,20 @@ function App() {
                   </div>
             </section>
 
+            <section>
+                  <h1 className={style.title}>WORKS</h1>
+                  <div className={style.bloco}>
+                      <div className={style.row}>
+                          <img className={style.img} src="./Imagens/emoji.png"></img>
+                          <div className={style.vida}>
+                              <h1 className={style.titulo}>Histórico Profissional</h1>
+                              <br></br>
+                              <p> Concluí o ensino médio em 2023 e agora estou trabalhando no meu primeiro emprego como aprendiz na Bosch.</p>
+                          </div>
+                      </div>
+                  </div>
+            </section>
+
             <section id="projects">
                 <h1 className={style.title}>PROJECTS</h1>
                 <div className={style.bloco}>
