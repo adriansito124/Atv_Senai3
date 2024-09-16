@@ -110,13 +110,10 @@ function App() {
 
             <h1 className={style.title}>FIM</h1>
         </main>
-            <script src="./script.js"></script>
-            <footer>
-
-            </footer>
  
     </>
   )
 }
 
 export default App
+
