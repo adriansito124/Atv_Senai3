@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.modal {
+    background-color: #cfcfcf;
+
+    position: fixed;
+    z-index: 99;
+
+    display: none;
+    flex-direction: column;
+
+    gap: 10px;
+
+    padding: 25px 50px;
+    border-radius: 5px;
+
+    top: 45px;
+
+    box-shadow: 0 5px 5px rgba(25, 25, 25, 0.25);
+}
+
+.modalLink {
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: black;
+
+    font-weight: 500;
+}
+
+header {
+    background: linear-gradient(rgb(44, 44, 44), rgb(30, 30, 30), rgb(24, 24, 24));
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    padding: 10px 50px;
+
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    gap: 50px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cresce {
+    font-size: 1.5rem;
+    opacity: 95%;
+
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+.cresce:hover {
+    opacity: 100%;
+    scale: 1.1;
+}
+
+.menu {
+    height: 30px;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 100px;
+
+    background: linear-gradient(rgb(44, 44, 44), rgb(30, 30, 30), rgb(24, 24, 24));
+}
+
+section {
+    padding: 70px 5% 5% 5%;
+
+    height: fit-content;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    gap: 20px;
+}
+
+.tv {
+    width: 100%;
+    max-width: 1000px;
+
+    height: 550px;
+    border: 10px solid #333333;
+    border-radius: 5px;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(99, 99, 99);
+    position: relative;
+    overflow: hidden;
+}
+
+.cd {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+
+    background-color: #202020;
+
+    width: 100%;
+    max-width: 1000px;
+
+    border: 6px solid #363636;
+    border-radius: 5px;
+
+    gap: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+
+    object-fit: cover;
+
+    border-radius: 100%;
+
+    border: 3px solid white;
+}
+
+.vida {
+    color: #ffffff;
+    
+    width: calc(100% - 275px);
+}
+
+@media (max-width: 850px) {
+    .vida {
+        width: 100%;
+    }
+}
+
+p {
+    font-size: 1.05rem;
+    text-align: justify;
+    color: white;
+}
+
+.titulo {
+    font-size: 2.1rem;
+    color: white;
+}
+
+.photo {
+    width: 28%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 5%;
+}
+
+.ybet {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+
+    background-color: #202020;
+
+    width: 100%;
+    max-width: 1000px;
+
+    border: 6px solid #363636;
+    border-radius: 5px;
+
+    gap: 50px;
+}
+
+.coluna {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.photo2 {
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.photo3 {
+    width: 28%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    border-radius: 5%;
+    opacity: 90%;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+
+    opacity: 85%;
+
+    object-fit: cover;
+
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.vida2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.titulo2 {
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+}
+
+.img2:hover{
+    scale: 1.03;
+    opacity: 100%;
+}
+
+.photo3:hover{
+    scale: 1.02;
+    opacity: 100%;
+}
