@@ -29,7 +29,7 @@ function App() {
             <section>
                 <h1 className={style.title}>PORTFÓLIO</h1>
                 <div className={style.tv}>
-                    <div className={screen}>
+                    <div className={style.screen}>
                         <img className={style.cd} id="disco" src="./Imagens/Ibere.jpeg"></img>
                     </div>
                 </div>
