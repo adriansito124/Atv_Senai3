@@ -23,7 +23,7 @@ function App() {
 
       <header>
         <div className={style.header}>
-        <a className={style.modalLink} href="https://wa.me/5541984938111"><img src={zap} alt="whatsapp"/> WhatsApp</a>
+        <a className={style.modalLink} href="https://wa.me/5541984938111"><img src={zap} alt="whatsapp"/>Zap</a>
           <div className={style.box}>
             <a href="#profile" className={style.cresce}>Profile</a>
             <a href="#works" className={style.cresce}>Works</a>
