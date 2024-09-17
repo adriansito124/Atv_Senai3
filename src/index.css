@@ -7,5 +7,7 @@ html {
 :root{
   --fonte: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --grad: linear-gradient(rgb(44, 44, 44), rgb(30, 30, 30), rgb(24, 24, 24));
+  --fundo: #202020;
+  --borda: 6px solid #363636;
 }
 

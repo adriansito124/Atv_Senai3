@@ -143,12 +143,12 @@ section {
 
     padding: 25px;
 
-    background-color: #202020;
+    background-color: var(--fundo);
 
     width: 100%;
     max-width: 1000px;
 
-    border: 6px solid #363636;
+    border: var(--borda);
     border-radius: 5px;
 
     gap: 50px;
@@ -216,12 +216,12 @@ p {
     flex-direction: row;
     padding: 25px;
 
-    background-color: #202020;
+    background-color: var(--fundo);
 
     width: 100%;
     max-width: 1000px;
 
-    border: 6px solid #363636;
+    border: var(--borda);
     border-radius: 5px;
 
     gap: 50px;
