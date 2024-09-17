@@ -1,7 +1,11 @@
-
-
 body,
 html {
   width: 100%;
   scroll-behavior: smooth;
 }
+
+:root{
+  --fonte: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --grad: linear-gradient(rgb(44, 44, 44), rgb(30, 30, 30), rgb(24, 24, 24));
+}
+

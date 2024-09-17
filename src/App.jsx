@@ -36,7 +36,7 @@ function App() {
       <main>    
 
         <section id="profile">
-          <h1 className={style.title}>PROFILE</h1>
+          <h1 className={`${style.title} ${style.nunes}`}>PROFILE</h1>
           <div className={style.bloco}>
             <div className={style.row}>
               <img className={style.img} src={adrian} alt="adrian" />
@@ -57,7 +57,7 @@ function App() {
         </section>
 
         <section id='works'>
-          <h1 className={style.title}>WORKS</h1>
+          <h1 className={`${style.title} ${style.nunes}`}>WORKS</h1>
           <div className={style.bloco}>
             <div className={style.row}>
               <img className={style.img} src={emoji} alt="emoji" />
@@ -70,7 +70,7 @@ function App() {
         </section>
 
         <section id="projects">
-          <h1 className={style.title}>PROJECTS</h1>
+          <h1 className={`${style.title} ${style.nunes}`}>PROJECTS</h1>
           <div className={style.bloco}>
             <div className={style.vida2}>
               <h1 className={style.titulo}>Gênio Quiz Brawl Stars</h1>
@@ -105,7 +105,7 @@ function App() {
         </section>
 
         <section id="skills">
-          <h1 className={style.title}>SKILLS</h1>
+          <h1 className={`${style.title} ${style.nunes}`}>SKILLS</h1>
           <div className={style.bloco}>
             <div className={style.ybet}>
               <img className={style.photo3} src={python} alt="python" />

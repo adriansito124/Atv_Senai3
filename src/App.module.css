@@ -3,7 +3,7 @@
     padding: 0;
 
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--fonte);
 }
 
 body,
@@ -20,8 +20,13 @@ html {
     font-weight: 500;
 }
 
+
+.nunes{
+    font-family: "Nunito", sans-serif;
+  }
+
 header {
-    background: linear-gradient(rgb(44, 44, 44), rgb(30, 30, 30), rgb(24, 24, 24));
+    background: var(--grad);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -48,14 +53,15 @@ a {
 
 .box {
     display: flex;
-    gap: 50px;
 
-    justify-content: center;
+    gap: 20px;
+
+    justify-content: space-around;
     align-items: center;
 }
 
 .cresce {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     opacity: 95%;
 
     text-decoration: none;
@@ -84,7 +90,7 @@ main {
 
     gap: 100px;
 
-    background: linear-gradient(rgb(44, 44, 44), rgb(30, 30, 30), rgb(24, 24, 24));
+    background: var(--grad);
 }
 
 section {
