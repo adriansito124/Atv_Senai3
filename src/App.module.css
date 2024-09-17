@@ -12,29 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
-.modal {
-    background-color: #cfcfcf;
-
-    position: fixed;
-    z-index: 99;
-
-    display: none;
-    flex-direction: column;
-
-    gap: 10px;
-
-    padding: 25px 50px;
-    border-radius: 5px;
-
-    top: 45px;
-
-    box-shadow: 0 5px 5px rgba(25, 25, 25, 0.25);
-}
-
 .modalLink {
     text-decoration: none;
     font-size: 1.05rem;
-    color: black;
+    color: white;
 
     font-weight: 500;
 }
@@ -91,6 +72,8 @@ a {
 .menu {
     height: 30px;
 }
+
+
 
 main {
     width: 100%;
