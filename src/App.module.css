@@ -14,7 +14,7 @@ html {
 
 .modalLink {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
 
     font-weight: 500;
@@ -61,7 +61,7 @@ a {
 }
 
 .cresce {
-    font-size: 1.1rem;
+    font-size: 1rem;
     opacity: 95%;
 
     text-decoration: none;
